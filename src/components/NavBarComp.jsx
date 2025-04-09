@@ -1,7 +1,6 @@
 // src/components/CustomNavbar.jsx
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '/logo.png'; // adjust path as per your project
 
 const CustomNavbar = () => {
