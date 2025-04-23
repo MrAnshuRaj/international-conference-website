@@ -13,8 +13,7 @@ export default function Footer() {
 
       <div>
         <h3 class="font-semibold text-lg mb-2">Contact Us</h3>
-        <p>Email: conference2025@nitjsr.ac.in</p>
-        <p>Phone: +91 12345 67890</p>
+        <p>Email: icirme@nitjsr.ac.in</p>
         <p>Address: NIT Jamshedpur, Jharkhand, India</p>
       </div>
       <div>

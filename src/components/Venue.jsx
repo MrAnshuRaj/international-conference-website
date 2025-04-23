@@ -7,9 +7,24 @@ const Venue = () => {
       <h2 className="text-5xl !font-bold !text-blue-900 mb-6 uppercase">Venue</h2>
 
       {/* Venue Description */}
-      <p className="text-lg text-gray-700 max-w-6xl mx-auto mb-10">
-      National Institute of Technology Jamshedpur,earlier known as Regional Institute of Technology was established on 15th August 1960 as a joint venture of Government of India and the Government of Bihar in the chain of REC's (Regional Engineering College) in India with the aim to generate technical graduates of highest standards who could provide technological leadership to the region. It was among the first eight Regional Engineering Colleges (RECs) established as part of the Second Five-Year Plan (1956 - 1961). This was the only REC in the country which was named as RIT (Regional Institute of Technology). Therefore RIT Jamshedpur was actually the REC of undivided Bihar & Jharkhand. The foundation stone of RIT (REC) Jamshedpur was laid by Dr. Srikrishna Sinha, the then chief minister of Bihar , with the aim of nurturing talent and setting high standards of education and excellence.
-      </p>
+        <p className="text-lg text-gray-700 max-w-6xl mx-auto mb-10 leading-relaxed">
+    The <strong>International Conference on Innovations & Research in Mechanical Engineering (ICIRME 2025)</strong> will be held at the prestigious
+    <strong> National Institute of Technology Jamshedpur (NIT Jamshedpur)</strong>, located in the industrial hub of Jamshedpur, Jharkhand. Established in 1960,
+    NIT Jamshedpur stands as a beacon of technical excellence, known for its strong academic and research environment. The campus is nestled amidst
+    lush greenery and offers a tranquil yet modern setting ideal for meaningful academic interactions and collaborative research.
+    <br /><br />
+
+    <strong>Travel to NIT Jamshedpur is convenient via multiple modes.</strong> The city is well connected by rail to major cities like
+    Kolkata, Delhi, and Mumbai through the <strong>Tatanagar Junction</strong>, which is just 10 km from the campus. The nearest airport is
+    <strong> Birsa Munda Airport</strong> in Ranchi (around 130 km), with regular road and train connectivity to Jamshedpur.
+    <br /><br />
+
+    For those visiting in person, <strong>Jamshedpur offers a unique mix of industrial heritage and natural beauty</strong>.
+    Popular nearby attractions include the scenic <strong>Jubilee Park</strong>, <strong>Tata Steel Zoological Park</strong>, and <strong>Dimna Lake</strong>,
+    perfect for a relaxing break after academic sessions. The city's rich culture and welcoming atmosphere make it a memorable destination for
+    delegates from around the globe.
+  </p>
+
 
       {/* Venue Image */}
       <div className="mb-10 py-5">

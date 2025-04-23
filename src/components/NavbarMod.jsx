@@ -19,7 +19,12 @@ const Navbarfancy = () => {
       fixed="top"
       className={`custom-navbar ${scrolled ? 'navbar-scrolled' : ''}`}
     >
-      <Container>
+      <div style={{
+        width: "100%",
+        // backgroundColor: "red",
+        display:"flex",
+        padding: "0 20px"
+      }}>
         <Navbar.Brand href="/home" className="d-flex align-items-center">
             <img className="mx-auto w-12 h-15 object-cover me-2"
               src={logo}
@@ -28,7 +33,7 @@ const Navbarfancy = () => {
               height="40"
             />
             <div>
-              <strong className="text-white">NITJSR ME Conference</strong>
+              <strong className="text-white">ICIRME-2025</strong>
               <br />
               <small className="text-white">NIT Jamshedpur</small>
             </div>
@@ -76,10 +81,15 @@ const Navbarfancy = () => {
               >
                 Submission
               </NavLink>
+              <NavLink to="/contact" className={({ isActive }) =>
+                `nav-link text-white !text-lg ${isActive ? 'fw-bold' : ''}`}>
+                Contact
+              </NavLink>
+
             </Nav>
 
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 };
