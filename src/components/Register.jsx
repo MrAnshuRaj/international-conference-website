@@ -52,6 +52,7 @@ Paper.
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
         <a
+          target="_blank"
           href="https://easychair.org/conferences?conf=icirme2025"
           className="bg-blue-800  text-white font-bold py-3 px-6 rounded-md shadow-md hover:bg-blue-900 border-2 border-blue-300 !no-underline"
         >

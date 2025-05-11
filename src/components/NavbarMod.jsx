@@ -58,14 +58,6 @@ const Navbarfancy = () => {
                 Committee
               </NavLink>
               <NavLink
-                to="/speakers"
-                className={({ isActive }) =>
-                  `nav-link text-white !text-lg ${isActive ? 'fw-bold' : ''}`
-                }
-              >
-                Speakers
-              </NavLink>
-              <NavLink
                 to="/venue"
                 className={({ isActive }) =>
                   `nav-link text-white !text-lg ${isActive ? 'fw-bold' : ''}`
