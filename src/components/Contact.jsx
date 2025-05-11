@@ -39,7 +39,7 @@ const Contact = () => {
             <img
               src={person.url ? person.url : "/assets/committee/placeholder.jpg"}
               alt={person.name}
-              className="w-32 h-32 rounded-full object-cover mb-4 border border-gray-300 shadow-sm"
+              className="w-28 h-38 rounded-full mt-3 object-cover scale-125 mb-4 border border-gray-300 shadow-sm"
               onError={(e) => { e.target.onerror = null; e.target.src = "/assets/committee/placeholder.jpg"; }}
             />
             <h3 className="text-xl font-semibold !text-blue-800 mb-2">{person.name}</h3>
