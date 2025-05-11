@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import bgImg from '../assets/institute.jpg';
-import droneVid from '../assets/hero-vid.mp4'
+import droneVid from '../assets/hero-video.mp4'
 
 const HeroSection = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
