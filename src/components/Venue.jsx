@@ -4,7 +4,7 @@ const Venue = () => {
   return (
     <div className="bg-gray-100 py-15 px-6 text-center mt-10">
       {/* Section Title */}
-      <h2 className="text-5xl !font-bold !text-blue-900 mb-6 uppercase">Venue</h2>
+      <h2 className="text-4xl !font-bold !text-blue-900 mb-6 uppercase">Venue</h2>
 
       {/* Venue Description */}
         <p className="text-lg text-gray-700 max-w-6xl mx-auto mb-10 leading-relaxed">

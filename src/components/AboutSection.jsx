@@ -3,11 +3,11 @@ import React from 'react';
 const AboutSection = () => {
   return (
     <section className="pt-10 px-6 bg-white">
-      <div className="max-w-6xl mx-auto space-y-10">
+      <div className="max-w-6xl mx-auto space-y-12">
 
         {/* About the Institute */}
         <div>
-          <h2 className="text-3xl font-bold text-blue-900 mb-4 text-center uppercase">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4 text-center uppercase">
             About the Institute
           </h2>
           <p className="text-gray-800 text-justify leading-relaxed">
@@ -25,7 +25,7 @@ const AboutSection = () => {
 
         {/* About the Conference */}
         <div>
-          <h2 className="text-3xl font-bold text-blue-900 mb-4 text-center uppercase">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4 text-center uppercase">
             About the Conference
           </h2>
           <p className="text-gray-800 text-justify leading-relaxed">

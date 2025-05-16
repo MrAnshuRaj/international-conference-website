@@ -2,8 +2,8 @@ import React from 'react';
 
 const Publications = () => {
   return (
-    <div className="bg-slate-50 py-16 px-6">
-      <h2 className="text-3xl !font-bold text-center !text-blue-900 uppercase mb-10">
+    <div className="bg-slate-50 py-15 px-6">
+      <h2 className="text-4xl !font-bold text-center !text-blue-900 uppercase mb-5">
         Publications
       </h2>
       

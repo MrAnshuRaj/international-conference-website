@@ -10,7 +10,7 @@ const dates = [
 const ImportantDates = () => {
   return (
     <div className="bg-gray-200 py-5 px-6">
-      <h2 className="text-3xl !font-bold text-center !text-blue-900 uppercase !mb-10">
+      <h2 className="text-4xl !font-bold text-center !text-blue-900 uppercase !mb-10">
         Important Dates
       </h2>
 

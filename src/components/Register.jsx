@@ -3,7 +3,7 @@ import React from "react";
 const Register = () => {
   return (
     <div className="bg-gray-100 py-16 px-6 text-center">
-      <h2 className="text-5xl !font-bold !text-blue-900 mb-2 uppercase">Register</h2>
+      <h2 className="text-4xl !font-bold !text-blue-900 mb-2 uppercase">Register</h2>
       <p className="text-lg !text-orange-500 mb-2">The registration system is open!</p>
       <div className="w-20 h-1 mx-auto !bg-green-600 mb-6 rounded-sm"></div>
       <p className="!text-gray-700 mb-10 text-sm md:text-base">
