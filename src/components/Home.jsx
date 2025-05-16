@@ -4,6 +4,8 @@ import AboutSection from './AboutSection';
 import Register from './Register';
 import SubmissionPage from './SubmissionPage';
 import Instructions from './Instructions';
+import ImportantDates from './ImportantDates';
+import Publications from './Publications';
 export default function Home() {
   return (
     <>
@@ -11,7 +13,8 @@ export default function Home() {
     <AboutSection/>
     <SubmissionPage/>
     <Register/>
-    
+    <ImportantDates/>
+    <Publications/>
     </>
   )
 }

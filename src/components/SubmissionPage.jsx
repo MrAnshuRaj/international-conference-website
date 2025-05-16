@@ -37,7 +37,7 @@ const SubmissionPage = () => {
   ];
 
   return (
-    <div className="bg-white text-center mb-6">
+    <div className="bg-white text-center mb-12">
       <h2 className="text-4xl !font-bold !text-blue-900">SUBMISSION</h2>
       <p className="text-red-600 text-lg mt-2">Submit an abstract</p>
       <div className="h-1 w-16 bg-green-600 mx-auto my-3 rounded"></div>

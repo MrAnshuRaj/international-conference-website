@@ -136,7 +136,7 @@ const renderCard = (item, field1, field2) => (
       </svg>
       {item[field1]}
     </h3>
-    <p className="text-gray-700 mt-1 text-sm">{item[field2]}</p>
+    <p className="text-gray-700 mt-1 text-base">{item[field2]}</p>
   </div>
 );
 
