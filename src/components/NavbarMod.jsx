@@ -20,7 +20,7 @@ const Navbarfancy = () => {
           : 'bg-blue-600'
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-1 md:px-8">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-2 md:px-8">
         {/* Logo & Brand */}
         <NavLink to="/" className="flex items-center gap-3">
           <img src={logo} alt="Logo" className="w-15 h-15 object-contain" />
