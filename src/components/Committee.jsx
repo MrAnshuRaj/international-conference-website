@@ -7,7 +7,6 @@ const organizingCommittee = [
   { role: "Organizing Chairman", name: "Dr. Pranab Kumar Kundu" },
   { role: "Organizing Secretary", name: "Dr. Saikat Ranjan Maity" },
   { role: "Organizing Secretary", name: "Dr. Abhijit Dey" },
-  { role: "Organizing Secretary", name: "Dr. Vishesh Ranjan Kar" },
   { role: "Sponsorship Chair", name: "Prof. Mrityunjay Kumar Sinha" },
   { role: "Sponsorship Co-Chair", name: "Dr. Deepak Kumar" },
   { role: "Public Relations Chair", name: "Dr. Naresh Prasad" },

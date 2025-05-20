@@ -1,14 +1,10 @@
 import React from "react";
-
 const Register = () => {
   return (
     <div className="bg-gray-100 py-16 px-6 text-center">
       <h2 className="text-4xl !font-bold !text-blue-900 mb-2 uppercase">Register</h2>
       <p className="text-lg !text-orange-500 mb-2">The registration system is open!</p>
       <div className="w-20 h-1 mx-auto !bg-green-600 mb-6 rounded-sm"></div>
-      <p className="!text-gray-700 mb-10 text-sm md:text-base">
-        At least one author of each paper must register.
-      </p>
 
       <div className="overflow-x-auto max-w-3xl mx-auto mb-6">
         <table className="w-full border border-white text-left">
@@ -44,11 +40,6 @@ const Register = () => {
         </table>
       </div>
 
-      <p className="text-gray-600 mb-10 text-sm md:text-base">
-      50% Discount in registration fees may be offered to
-communicating author for the registration of the Second
-Paper.
-      </p>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
         <a
@@ -59,10 +50,11 @@ Paper.
           Click here to register
         </a>
         <a
-          href="#"
+          href="/ICIRME Brochure.pdf"
+          download
           className="bg-blue-800 text-white font-medium py-3 px-6 rounded-md shadow-md hover:bg-blue-900 !no-underline"
         >
-          Schedule of ICIRME-2025
+          Download Brochure
         </a>
       </div>
     </div>

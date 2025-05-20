@@ -7,19 +7,18 @@ const Publications = () => {
         Publications
       </h2>
       
-       <ul className="list-disc list-inside text-center mt-6 text-lg space-y-3">
-  <li>
-    All accepted, presented and registered papers will be published in
-    <span className="font-semibold text-blue-800"> Scopus-indexed proceedings/book series</span>.
-  </li>
-  <li>
-    Selected submissions will be considered for publication in special/regular issues of
-    <span className="font-semibold text-blue-800"> SCI/SCIE/ESCI-indexed journals</span>.
-  </li>
-  <li>
-    Best Paper Awards and Best Poster Awards will also be presented in each stream.
-  </li>
-</ul>
+   <div className="text-center mt-6 text-lg">
+  <p className="font-normal">
+    The presented and selected papers will be published in the following journals:
+  </p>
+
+  <ul className="list-disc list-inside mt-4 space-y-2 text-left inline-block">
+    <li className="font-semibold text-blue-800">Scopus-indexed proceedings/book series</li>
+    <li className="font-semibold text-blue-800">SCI/SCIE/ESCI-indexed journals</li>
+    <li className="font-semibold text-blue-800">Coming soon!</li>
+  </ul>
+</div>
+
 
      
     </div>

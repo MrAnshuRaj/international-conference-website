@@ -6,7 +6,6 @@ import Venue from './components/Venue';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Navbarfancy from './components/NavbarMod';
-import SubmissionPageNav from './components/SubmissionPageNav';
 import ScrollToTop from './ScrollToTop';
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/committee" element={<CommitteePage/>}/>
         <Route path="/venue" element={<Venue/>}/>
-        <Route path="/submission" element={<SubmissionPageNav/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>

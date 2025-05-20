@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/nitlogo.png';
+import logo from '../assets/nitlogogold.png';
 
 const Navbarfancy = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -55,7 +55,6 @@ const Navbarfancy = () => {
             { name: 'Home', to: '/' },
             { name: 'Committee', to: '/committee' },
             { name: 'Venue', to: '/venue' },
-            { name: 'Submission', to: '/submission' },
             { name: 'Contact', to: '/contact' },
           ].map((item) => (
             <NavLink

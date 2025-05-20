@@ -15,11 +15,6 @@ const contactPersons = [
     name: "Dr. Abhijit Dey",
     phone: "+91 88997 78875",
     url:"https://nitjsr.ac.in/backend/uploads/Faculty/ME145/profile/f5c7cae1-bc61-4057-b82b-dd6b471fbf8b.jpg",
-  },
-  {
-    name: "Dr. Vishesh Ranjan Kar",
-    phone: "+91 94395 69975",
-    url:"https://nitjsr.ac.in/backend/uploads/Faculty/ME122/profile/99ac05f2-1a3b-42f8-95ee-9ae7028f255c.jpg",
   }
 ];
 
@@ -30,7 +25,7 @@ const Contact = () => {
       <div className="w-16 h-1 bg-green-600 mx-auto mb-10" />
 
       {/* Contact Cards */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8">
         {contactPersons.map((person, index) => (
           <div
             key={index}

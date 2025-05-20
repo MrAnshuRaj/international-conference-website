@@ -32,7 +32,7 @@ const HeroSection = () => {
       {/* Foreground content */}
     <div className="relative z-10 max-w-7xl w-full px-6 md:px-12">
     <div className="flex justify-center items-center">
-      <div className="bg-black/60 p-6 md:p-10 rounded-lg text-white text-center">
+      <div className="bg-black/60 p-6 md:p-15 rounded-lg text-white text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">ICIRME 2025</h1>
         <p className="text-lg md:text-xl mb-4 text-blue-100">
           International Conference on Innovations & Research in Mechanical Engineering
@@ -41,8 +41,8 @@ const HeroSection = () => {
           December 15-17, 2025 • Hybrid Mode • NIT Jamshedpur
         </p>
         
-        {/* Center the button */}
-        <div className="flex justify-center">
+       
+        {/* <div className="flex justify-center">
           <a
             target="_blank"
             href="https://easychair.org/conferences?conf=icirme2025"
@@ -50,7 +50,7 @@ const HeroSection = () => {
           >
             Register Now
           </a>
-        </div>
+        </div> */}
       </div>
   </div>
 </div>
