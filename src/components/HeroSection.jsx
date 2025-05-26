@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bgImg from '../assets/institute.jpg';
+import bgImg from '../assets/nitbg.jpeg';
 import droneVid from '../assets/hero-video.mp4'
 
 const HeroSection = () => {
@@ -16,7 +16,7 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${bgImg})` }}
       ></div>
 
-      {/* Background Video */}
+      
       <video
         className="absolute inset-0 w-full h-full object-cover mt-19"
         autoPlay
@@ -40,17 +40,6 @@ const HeroSection = () => {
         <p className="text-md md:text-lg mb-6">
           December 15-17, 2025 • Hybrid Mode • NIT Jamshedpur
         </p>
-        
-       
-        {/* <div className="flex justify-center">
-          <a
-            target="_blank"
-            href="https://easychair.org/conferences?conf=icirme2025"
-            className="inline-block !no-underline mt-4 px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-lg font-semibold shadow-md transition"
-          >
-            Register Now
-          </a>
-        </div> */}
       </div>
   </div>
 </div>
